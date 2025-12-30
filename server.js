@@ -19,7 +19,7 @@ if (!fs.existsSync(tempDir)) {
 const app = express();
 
 app.use(cors({
-  origin: ['https://candidate-management-sepia.vercel.app', 'http://localhost:5173'],
+  origin: ['https://candidate-management-sepia.vercel.app', 'https://candidate-management-frontend-gger.onrender.com', 'http://localhost:5173'],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
