@@ -1,5 +1,8 @@
-echo "node_modules/
+node_modules/
 .env
 .env.local
 *.log
-.DS_Store" > .gitignore
+.DS_Store
+public/temp/
+dist/
+build/
